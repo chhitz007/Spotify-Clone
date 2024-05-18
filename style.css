@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Varela+Round&display=swap');
+
+body {
+  background-color: white;     /* Here you can change the page Color BackGround */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Poppins", sans-serif;    /* Here is the letter fonts of the Nav Bar*/
+}
+
+nav ul{                                 /* Here you can Edit your Nav Bar */
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{                         /* Here you give space between your Home and About all list sections */
+    padding: 0 12px;
+}
+
+.brand img {                     /* Here you can Edit your logo size */
+    width: 44px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+
+.container{                                      /* Here you can edit your big middle container */
+    min-height: 72vh;
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+    margin: 25px auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('Images/musicBG1.jpg');
+}   
+
+.bottom{                                       /* Here you can edit your bottom player bar */
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}   
+
+.icons{                                    /* Here as you know you can edit your icons */
+    margin-top: 14px;
+}
+
+.icons i{                                /* Here you made your cursor as a click pointer */
+    cursor: pointer;
+}
+
+#myProgressBar{                         /* Here You can edit your progress Bar */
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItem{                              /* Here you can edit your Song Name Box */
+    height: 35px;
+    display: flex;
+    background-color: white;
+    width: 150%;
+    color: black;
+    margin: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.songItem img{                        /* Here you can edit your Song Cover Img */
+    width: 55px;
+    margin: 0 0px;
+    border-radius: 34px;
+}
+
+.timestamp{                         /* Herew you can edit your  song timestamp */
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+.songGif{                        /* Here you can edit your bottom song gif name info */
+    position: absolute;
+    left: 3vw;
+    margin: 0 20;
+}
+
+
+
+.songGif img{                      /* here You can edit your Music Gif  */
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
